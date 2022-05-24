@@ -1,0 +1,11 @@
+.charBox{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: inline-block;
+}
+.charButton{
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+}
