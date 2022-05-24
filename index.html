@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,67 +8,86 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Kalkulator</title>
 </head>
+
 <body>
-    <h1>Kalkulator</h1>
 
-    <div class="charBox row1">
-        <button class="charButton 1">1</button>
-    </div>
-    <div class="charBox row1">
-        <button class="charButton 2">2</button>
-    </div>
-    <div class="charBox row1">
-        <button class="charButton 3">3</button>
-    </div>
-    <div class="charBox row1">
-        <button class="charButton +">+</button>
-    </div>
+    <div class="allKnowingDiv">
+        <h1>Kalkulator</h1>
+        <br>
+        <hr>
+        <h1 id="numOutput"></h1>
 
-
-    <br>
-
-
-    <div class="charBox row2">
-        <button class="charButton 4">4</button>
-    </div>
-    <div class="charBox row2">
-        <button class="charButton 5">5</button>
-    </div>
-    <div class="charBox row2">
-        <button class="charButton 6">6</button>
-    </div>
-    <div class="charBox row2">
-        <button class="charButton -">-</button>
-    </div>
+        <div class="charBox row1">
+            <button id="1" class="charButton ">1</button>
+        </div>
+        <div class="charBox row1">
+            <button id="2" class="charButton ">2</button>
+        </div>
+        <div class="charBox row1">
+            <button id="3" class="charButton ">3</button>
+        </div>
+        <div class="charBox row1">
+            <button id="+" class="charButton ">+</button>
+        </div>
+        <div class="charBox row1">
+            <button id="backSpace" class="charButton ">Backspace</button>
+        </div>
 
 
-    <br>
+        <br>
 
 
-    <div class="charBox row3">
-        <button class="charButton 7">7</button>
+        <div class="charBox row2">
+            <button id="4" class="charButton ">4</button>
+        </div>
+        <div class="charBox row2">
+            <button id="5" class="charButton ">5</button>
+        </div>
+        <div class="charBox row2">
+            <button id="6" class="charButton ">6</button>
+        </div>
+        <div class="charBox row2">
+            <button id="-" class="charButton ">-</button>
+        </div>
+        <div class="charBox row1">
+            <button id="reset" class="charButton ">Reset</button>
+        </div>
+
+        <br>
+
+
+        <div class="charBox row3">
+            <button id="7" class="charButton ">7</button>
+        </div>
+        <div class="charBox row3">
+            <button id="8" class="charButton ">8</button>
+        </div>
+        <div class="charBox row3">
+            <button id="9" class="charButton ">9</button>
+        </div>
+        <div class="charBox row3">
+            <button id="/" class="charButton ">/</button>
+        </div>
+
+
+        <br>
+
+
+        <div class="charBox row4">
+            <button id="." class="charButton ">,</button>
+        </div>
+        <div class="charBox row4">
+            <button id="0" class="charButton ">0</button>
+        </div>
+        <div class="charBox row4">
+            <button id="=" class="charButton ">=</button>
+        </div>
+        <div class="charBox row4">
+            <button id="*" class="charButton ">*</button>
+        </div>
     </div>
-    <div class="charBox row3">
-        <button class="charButton 8">8</button>
-    </div>
-    <div class="charBox row3">
-        <button class="charButton 9">9</button>
-    </div>
-    <div class="charBox row3">
-        <button class="charButton /">/</button>
-    </div>
-
-
-    <br>
-
-
-    <div class="charBox row4">
-        <button class="charButton 0">0</button>
-    </div>
-    <div class="charBox row4">
-        <button class="charButton X">X</button>
-    </div>
-
     <script src="js/index.js"></script>
+    <script src="js/calculator.js"></script>
 </body>
+
 </html>
